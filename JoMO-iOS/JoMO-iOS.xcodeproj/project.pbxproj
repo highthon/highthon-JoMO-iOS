@@ -11,6 +11,8 @@
 		D55636842972C93C004F3942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636832972C93C004F3942 /* ContentView.swift */; };
 		D55636862972C93F004F3942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55636852972C93F004F3942 /* Assets.xcassets */; };
 		D55636892972C93F004F3942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55636882972C93F004F3942 /* Preview Assets.xcassets */; };
+		D55636912972C979004F3942 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D55636902972C979004F3942 /* Lottie */; };
+		D55636942972C98C004F3942 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D55636932972C98C004F3942 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55636912972C979004F3942 /* Lottie in Frameworks */,
+				D55636942972C98C004F3942 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,10 @@
 			dependencies = (
 			);
 			name = "JoMO-iOS";
+			packageProductDependencies = (
+				D55636902972C979004F3942 /* Lottie */,
+				D55636932972C98C004F3942 /* Alamofire */,
+			);
 			productName = "JoMO-iOS";
 			productReference = D556367E2972C93C004F3942 /* JoMO-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,10 @@
 				Base,
 			);
 			mainGroup = D55636752972C93B004F3942;
+			packageReferences = (
+				D556368F2972C979004F3942 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				D55636922972C98C004F3942 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = D556367F2972C93C004F3942 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +351,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D556368F2972C979004F3942 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		D55636922972C98C004F3942 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D55636902972C979004F3942 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D556368F2972C979004F3942 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		D55636932972C98C004F3942 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D55636922972C98C004F3942 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D55636762972C93B004F3942 /* Project object */;
 }
