@@ -13,6 +13,7 @@
 		D55636892972C93F004F3942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55636882972C93F004F3942 /* Preview Assets.xcassets */; };
 		D55636912972C979004F3942 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D55636902972C979004F3942 /* Lottie */; };
 		D55636942972C98C004F3942 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D55636932972C98C004F3942 /* Alamofire */; };
+		D556369D2972CBBE004F3942 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556369C2972CBBE004F3942 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D55636832972C93C004F3942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D55636852972C93F004F3942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D55636882972C93F004F3942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D556369C2972CBBE004F3942 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,13 @@
 		D55636802972C93C004F3942 /* JoMO-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D55636812972C93C004F3942 /* JoMO_iOSApp.swift */,
-				D55636832972C93C004F3942 /* ContentView.swift */,
+				D55636952972CB0B004F3942 /* AppStart */,
+				D55636962972CB1B004F3942 /* Scene */,
+				D55636972972CB4D004F3942 /* Model */,
+				D55636982972CB5A004F3942 /* Network */,
+				D556369A2972CB70004F3942 /* Component */,
+				D55636992972CB64004F3942 /* Extension */,
+				D556369B2972CB84004F3942 /* Support */,
 				D55636852972C93F004F3942 /* Assets.xcassets */,
 				D55636872972C93F004F3942 /* Preview Content */,
 			);
@@ -69,6 +76,58 @@
 				D55636882972C93F004F3942 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D55636952972CB0B004F3942 /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				D55636812972C93C004F3942 /* JoMO_iOSApp.swift */,
+				D55636832972C93C004F3942 /* ContentView.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		D55636962972CB1B004F3942 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D556369C2972CBBE004F3942 /* MainView.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D55636972972CB4D004F3942 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D55636982972CB5A004F3942 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		D55636992972CB64004F3942 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D556369A2972CB70004F3942 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D556369B2972CB84004F3942 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D55636842972C93C004F3942 /* ContentView.swift in Sources */,
+				D556369D2972CBBE004F3942 /* MainView.swift in Sources */,
 				D55636822972C93C004F3942 /* JoMO_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
