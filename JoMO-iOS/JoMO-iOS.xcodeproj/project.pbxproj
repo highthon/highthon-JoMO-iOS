@@ -19,6 +19,7 @@
 		D55636A32972CCF6004F3942 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A22972CCF5004F3942 /* ColorExtension.swift */; };
 		D55636A72972CDAC004F3942 /* NavigationLinkComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */; };
 		D55636A92972CE68004F3942 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A82972CE68004F3942 /* UIScreenExtension.swift */; };
+		D55636AF2972E750004F3942 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636AE2972E750004F3942 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D55636A22972CCF5004F3942 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkComponent.swift; sourceTree = "<group>"; };
 		D55636A82972CE68004F3942 /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
+		D55636AE2972E750004F3942 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */,
+				D55636AE2972E750004F3942 /* PrimaryButton.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55636AF2972E750004F3942 /* PrimaryButton.swift in Sources */,
 				D55636842972C93C004F3942 /* ContentView.swift in Sources */,
 				D556369D2972CBBE004F3942 /* MainView.swift in Sources */,
 				D556369F2972CC77004F3942 /* ViewExtension.swift in Sources */,
