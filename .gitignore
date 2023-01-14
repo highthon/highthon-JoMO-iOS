@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/swift,swiftpackagemanager,cocoapods
-# Edit at https://www.toptal.com/developers/gitignore?templates=swift,swiftpackagemanager,cocoapods
+# Created by https://www.toptal.com/developers/gitignore/api/swift,swiftpackagemanager,cocoapods,xcode,xcodeinjection
+# Edit at https://www.toptal.com/developers/gitignore?templates=swift,swiftpackagemanager,cocoapods,xcode,xcodeinjection
 
 .DS_Store
 
@@ -101,4 +101,14 @@ xcuserdata
 *.xcodeproj
 
 
-# End of https://www.toptal.com/developers/gitignore/api/swift,swiftpackagemanager,cocoapods
+### Xcode ###
+
+## Xcode 8 and earlier
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
