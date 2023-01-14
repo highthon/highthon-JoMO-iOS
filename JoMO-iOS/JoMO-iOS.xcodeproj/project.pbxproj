@@ -19,9 +19,11 @@
 		D55636A32972CCF6004F3942 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A22972CCF5004F3942 /* ColorExtension.swift */; };
 		D55636A72972CDAC004F3942 /* NavigationLinkComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */; };
 		D55636A92972CE68004F3942 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A82972CE68004F3942 /* UIScreenExtension.swift */; };
+		D55636AB2972D0B4004F3942 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636AA2972D0B4004F3942 /* SignInView.swift */; };
 		D55636AD2972D126004F3942 /* TextFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636AC2972D126004F3942 /* TextFieldComponent.swift */; };
 		D55636AF2972E750004F3942 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636AE2972E750004F3942 /* PrimaryButton.swift */; };
 		D55636B12972EB39004F3942 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636B02972EB39004F3942 /* SplashView.swift */; };
+		D55636B32972EBEA004F3942 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636B22972EBEA004F3942 /* SignInViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +38,11 @@
 		D55636A22972CCF5004F3942 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkComponent.swift; sourceTree = "<group>"; };
 		D55636A82972CE68004F3942 /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
+		D55636AA2972D0B4004F3942 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		D55636AC2972D126004F3942 /* TextFieldComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldComponent.swift; sourceTree = "<group>"; };
 		D55636AE2972E750004F3942 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		D55636B02972EB39004F3942 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		D55636B22972EBEA004F3942 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			children = (
 				D556369C2972CBBE004F3942 /* MainView.swift */,
 				D55636B02972EB39004F3942 /* SplashView.swift */,
+				D55636AA2972D0B4004F3942 /* SignInView.swift */,
+				D55636B22972EBEA004F3942 /* SignInViewModel.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -232,9 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55636AB2972D0B4004F3942 /* SignInView.swift in Sources */,
 				D55636AF2972E750004F3942 /* PrimaryButton.swift in Sources */,
 				D55636842972C93C004F3942 /* ContentView.swift in Sources */,
 				D556369D2972CBBE004F3942 /* MainView.swift in Sources */,
+				D55636B32972EBEA004F3942 /* SignInViewModel.swift in Sources */,
 				D55636AD2972D126004F3942 /* TextFieldComponent.swift in Sources */,
 				D55636B12972EB39004F3942 /* SplashView.swift in Sources */,
 				D556369F2972CC77004F3942 /* ViewExtension.swift in Sources */,
