@@ -28,7 +28,8 @@ struct PrimaryButton: View {
                 .foregroundColor(enabled ? .black : .gray4)
                 .fillWidth()
                 .padding()
-                .background(enabled ? color : .gray1)
+                .background(color)
+                .opacity(enabled ? 1 : 0.7)
                 .cornerRadius(12)
         }
         .disabled(!enabled)
@@ -37,6 +38,6 @@ struct PrimaryButton: View {
 
 struct PrimaryButton_Previews: PreviewProvider {
     static var previews: some View {
-        PrimaryButton(title: "버튼", color: .gray2, enabled: .constant(true))
+        PrimaryButton(title: "버튼", color: .gray2, enabled: .constant(false))
     }
 }
