@@ -17,6 +17,7 @@
 		D556369F2972CC77004F3942 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556369E2972CC77004F3942 /* ViewExtension.swift */; };
 		D55636A12972CCAE004F3942 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A02972CCAE004F3942 /* ViewModifier.swift */; };
 		D55636A32972CCF6004F3942 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A22972CCF5004F3942 /* ColorExtension.swift */; };
+		D55636A72972CDAC004F3942 /* NavigationLinkComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D556369E2972CC77004F3942 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		D55636A02972CCAE004F3942 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 		D55636A22972CCF5004F3942 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		D556369A2972CB70004F3942 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				D55636842972C93C004F3942 /* ContentView.swift in Sources */,
 				D556369D2972CBBE004F3942 /* MainView.swift in Sources */,
 				D556369F2972CC77004F3942 /* ViewExtension.swift in Sources */,
+				D55636A72972CDAC004F3942 /* NavigationLinkComponent.swift in Sources */,
 				D55636A32972CCF6004F3942 /* ColorExtension.swift in Sources */,
 				D55636A12972CCAE004F3942 /* ViewModifier.swift in Sources */,
 				D55636822972C93C004F3942 /* JoMO_iOSApp.swift in Sources */,
