@@ -14,6 +14,9 @@
 		D55636912972C979004F3942 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D55636902972C979004F3942 /* Lottie */; };
 		D55636942972C98C004F3942 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D55636932972C98C004F3942 /* Alamofire */; };
 		D556369D2972CBBE004F3942 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556369C2972CBBE004F3942 /* MainView.swift */; };
+		D556369F2972CC77004F3942 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556369E2972CC77004F3942 /* ViewExtension.swift */; };
+		D55636A12972CCAE004F3942 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A02972CCAE004F3942 /* ViewModifier.swift */; };
+		D55636A32972CCF6004F3942 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636A22972CCF5004F3942 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		D55636852972C93F004F3942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D55636882972C93F004F3942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D556369C2972CBBE004F3942 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D556369E2972CC77004F3942 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		D55636A02972CCAE004F3942 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		D55636A22972CCF5004F3942 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 		D55636992972CB64004F3942 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D556369E2972CC77004F3942 /* ViewExtension.swift */,
+				D55636A22972CCF5004F3942 /* ColorExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 		D556369B2972CB84004F3942 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				D55636A02972CCAE004F3942 /* ViewModifier.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -210,6 +219,9 @@
 			files = (
 				D55636842972C93C004F3942 /* ContentView.swift in Sources */,
 				D556369D2972CBBE004F3942 /* MainView.swift in Sources */,
+				D556369F2972CC77004F3942 /* ViewExtension.swift in Sources */,
+				D55636A32972CCF6004F3942 /* ColorExtension.swift in Sources */,
+				D55636A12972CCAE004F3942 /* ViewModifier.swift in Sources */,
 				D55636822972C93C004F3942 /* JoMO_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
