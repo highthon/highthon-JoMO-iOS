@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5431D2E29730824003401E6 /* SignUpStep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5431D2D29730824003401E6 /* SignUpStep1View.swift */; };
+		D5431D3029730836003401E6 /* SignUpStep1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5431D2F29730836003401E6 /* SignUpStep1ViewModel.swift */; };
+		D5431D32297308F8003401E6 /* StepIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5431D31297308F8003401E6 /* StepIndicator.swift */; };
 		D55636822972C93C004F3942 /* JoMO_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636812972C93C004F3942 /* JoMO_iOSApp.swift */; };
 		D55636842972C93C004F3942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636832972C93C004F3942 /* ContentView.swift */; };
 		D55636862972C93F004F3942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55636852972C93F004F3942 /* Assets.xcassets */; };
@@ -24,9 +27,41 @@
 		D55636AF2972E750004F3942 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636AE2972E750004F3942 /* PrimaryButton.swift */; };
 		D55636B12972EB39004F3942 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636B02972EB39004F3942 /* SplashView.swift */; };
 		D55636B32972EBEA004F3942 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55636B22972EBEA004F3942 /* SignInViewModel.swift */; };
+		D599F7B029731042000A6B5E /* SignUpStep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7AF29731042000A6B5E /* SignUpStep2View.swift */; };
+		D599F7B229731049000A6B5E /* SignUpStep2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7B129731049000A6B5E /* SignUpStep2ViewModel.swift */; };
+		D599F7B4297314A7000A6B5E /* SignUpStep3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7B3297314A7000A6B5E /* SignUpStep3View.swift */; };
+		D599F7B829731520000A6B5E /* SignUpStep3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7B729731520000A6B5E /* SignUpStep3ViewModel.swift */; };
+		D599F7BB29731DBB000A6B5E /* BackgroundTapKeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7BA29731DBB000A6B5E /* BackgroundTapKeyboardDismiss.swift */; };
+		D599F7BD29731DE1000A6B5E /* KeyboardDismissExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7BC29731DE1000A6B5E /* KeyboardDismissExtension.swift */; };
+		D599F7C2297328E8000A6B5E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7C1297328E8000A6B5E /* User.swift */; };
+		D599F7C629732AF1000A6B5E /* GetTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7C529732AF1000A6B5E /* GetTokenResponse.swift */; };
+		D599F7C829732E63000A6B5E /* TokenUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7C729732E63000A6B5E /* TokenUserResponse.swift */; };
+		D599F7CB297330E3000A6B5E /* GetTokenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7CA297330E3000A6B5E /* GetTokenRouter.swift */; };
+		D599F7CE29733458000A6B5E /* GetTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7CD29733458000A6B5E /* GetTokenService.swift */; };
+		D599F7D2297335B9000A6B5E /* BaseAlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7D1297335B9000A6B5E /* BaseAlamofireService.swift */; };
+		D599F7D4297335E5000A6B5E /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7D3297335E5000A6B5E /* NetworkLogger.swift */; };
+		D599F7D629733702000A6B5E /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7D529733702000A6B5E /* SignUpResponse.swift */; };
+		D599F7D829733765000A6B5E /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7D729733765000A6B5E /* SignUpRouter.swift */; };
+		D599F7DA29733807000A6B5E /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7D929733807000A6B5E /* SignUpService.swift */; };
+		D599F7DC2973388D000A6B5E /* UserTokenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7DB2973388D000A6B5E /* UserTokenRouter.swift */; };
+		D599F7DF29733F6D000A6B5E /* UserTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7DE29733F6D000A6B5E /* UserTokenService.swift */; };
+		D599F7E129735A78000A6B5E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7E029735A78000A6B5E /* AppState.swift */; };
+		D599F7E329735AB6000A6B5E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7E229735AB6000A6B5E /* ContentViewModel.swift */; };
+		D599F7E629735E12000A6B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7E529735E12000A6B5E /* AppDelegate.swift */; };
+		D599F7E829736256000A6B5E /* Loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = D599F7E729736256000A6B5E /* Loss.swift */; };
+		EC480A0E297332E1004CBD2F /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC480A0D297332E1004CBD2F /* MyPageView.swift */; };
+		EC480A1229733FA0004CBD2F /* CheckPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC480A1129733FA0004CBD2F /* CheckPointView.swift */; };
+		EC480A15297342A5004CBD2F /* PointLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC480A14297342A5004CBD2F /* PointLogView.swift */; };
+		EC480A17297342BF004CBD2F /* PointShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC480A16297342BF004CBD2F /* PointShopView.swift */; };
+		ECEECBF129730FB8001E8807 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEECBF029730FB8001E8807 /* MainViewModel.swift */; };
+		ECEECBF429731251001E8807 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEECBF329731251001E8807 /* FormView.swift */; };
+		ECEECBF629731BF8001E8807 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEECBF529731BF8001E8807 /* FormViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5431D2D29730824003401E6 /* SignUpStep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpStep1View.swift; sourceTree = "<group>"; };
+		D5431D2F29730836003401E6 /* SignUpStep1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpStep1ViewModel.swift; sourceTree = "<group>"; };
+		D5431D31297308F8003401E6 /* StepIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepIndicator.swift; sourceTree = "<group>"; };
 		D556367E2972C93C004F3942 /* JoMO-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JoMO-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55636812972C93C004F3942 /* JoMO_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoMO_iOSApp.swift; sourceTree = "<group>"; };
 		D55636832972C93C004F3942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +78,35 @@
 		D55636AE2972E750004F3942 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		D55636B02972EB39004F3942 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		D55636B22972EBEA004F3942 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		D599F7AF29731042000A6B5E /* SignUpStep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpStep2View.swift; sourceTree = "<group>"; };
+		D599F7B129731049000A6B5E /* SignUpStep2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpStep2ViewModel.swift; sourceTree = "<group>"; };
+		D599F7B3297314A7000A6B5E /* SignUpStep3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpStep3View.swift; sourceTree = "<group>"; };
+		D599F7B729731520000A6B5E /* SignUpStep3ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpStep3ViewModel.swift; sourceTree = "<group>"; };
+		D599F7BA29731DBB000A6B5E /* BackgroundTapKeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTapKeyboardDismiss.swift; sourceTree = "<group>"; };
+		D599F7BC29731DE1000A6B5E /* KeyboardDismissExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismissExtension.swift; sourceTree = "<group>"; };
+		D599F7C1297328E8000A6B5E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D599F7C529732AF1000A6B5E /* GetTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTokenResponse.swift; sourceTree = "<group>"; };
+		D599F7C729732E63000A6B5E /* TokenUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenUserResponse.swift; sourceTree = "<group>"; };
+		D599F7CA297330E3000A6B5E /* GetTokenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTokenRouter.swift; sourceTree = "<group>"; };
+		D599F7CD29733458000A6B5E /* GetTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTokenService.swift; sourceTree = "<group>"; };
+		D599F7D1297335B9000A6B5E /* BaseAlamofireService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAlamofireService.swift; sourceTree = "<group>"; };
+		D599F7D3297335E5000A6B5E /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		D599F7D529733702000A6B5E /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
+		D599F7D729733765000A6B5E /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		D599F7D929733807000A6B5E /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
+		D599F7DB2973388D000A6B5E /* UserTokenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTokenRouter.swift; sourceTree = "<group>"; };
+		D599F7DE29733F6D000A6B5E /* UserTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTokenService.swift; sourceTree = "<group>"; };
+		D599F7E029735A78000A6B5E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		D599F7E229735AB6000A6B5E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D599F7E529735E12000A6B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D599F7E729736256000A6B5E /* Loss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loss.swift; sourceTree = "<group>"; };
+		EC480A0D297332E1004CBD2F /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		EC480A1129733FA0004CBD2F /* CheckPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointView.swift; sourceTree = "<group>"; };
+		EC480A14297342A5004CBD2F /* PointLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointLogView.swift; sourceTree = "<group>"; };
+		EC480A16297342BF004CBD2F /* PointShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointShopView.swift; sourceTree = "<group>"; };
+		ECEECBF029730FB8001E8807 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		ECEECBF329731251001E8807 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		ECEECBF529731BF8001E8807 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				D55636812972C93C004F3942 /* JoMO_iOSApp.swift */,
+				D599F7E529735E12000A6B5E /* AppDelegate.swift */,
 				D55636832972C93C004F3942 /* ContentView.swift */,
+				D599F7E229735AB6000A6B5E /* ContentViewModel.swift */,
 			);
 			path = AppStart;
 			sourceTree = "<group>";
@@ -110,10 +176,10 @@
 		D55636962972CB1B004F3942 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				D556369C2972CBBE004F3942 /* MainView.swift */,
-				D55636B02972EB39004F3942 /* SplashView.swift */,
-				D55636AA2972D0B4004F3942 /* SignInView.swift */,
-				D55636B22972EBEA004F3942 /* SignInViewModel.swift */,
+				EC480A1329734296004CBD2F /* Point */,
+				EC480A0C29733295004CBD2F /* MyPageView */,
+				ECEECBEF2973075B001E8807 /* MainView */,
+				ECEECBEE2973074C001E8807 /* AuthView */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -121,6 +187,11 @@
 		D55636972972CB4D004F3942 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D599F7E729736256000A6B5E /* Loss.swift */,
+				D599F7C1297328E8000A6B5E /* User.swift */,
+				D599F7D529733702000A6B5E /* SignUpResponse.swift */,
+				D599F7C529732AF1000A6B5E /* GetTokenResponse.swift */,
+				D599F7C729732E63000A6B5E /* TokenUserResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +199,8 @@
 		D55636982972CB5A004F3942 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D599F7C9297330D0000A6B5E /* Router */,
+				D599F7CC29733437000A6B5E /* Service */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -138,6 +211,7 @@
 				D556369E2972CC77004F3942 /* ViewExtension.swift */,
 				D55636A22972CCF5004F3942 /* ColorExtension.swift */,
 				D55636A82972CE68004F3942 /* UIScreenExtension.swift */,
+				D599F7BC29731DE1000A6B5E /* KeyboardDismissExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -146,8 +220,10 @@
 			isa = PBXGroup;
 			children = (
 				D55636A62972CDAC004F3942 /* NavigationLinkComponent.swift */,
+				D5431D31297308F8003401E6 /* StepIndicator.swift */,
 				D55636AE2972E750004F3942 /* PrimaryButton.swift */,
 				D55636AC2972D126004F3942 /* TextFieldComponent.swift */,
+				D599F7BA29731DBB000A6B5E /* BackgroundTapKeyboardDismiss.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -156,8 +232,76 @@
 			isa = PBXGroup;
 			children = (
 				D55636A02972CCAE004F3942 /* ViewModifier.swift */,
+				D599F7D3297335E5000A6B5E /* NetworkLogger.swift */,
+				D599F7E029735A78000A6B5E /* AppState.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		D599F7C9297330D0000A6B5E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D599F7CA297330E3000A6B5E /* GetTokenRouter.swift */,
+				D599F7D729733765000A6B5E /* SignUpRouter.swift */,
+				D599F7DB2973388D000A6B5E /* UserTokenRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		D599F7CC29733437000A6B5E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D599F7D1297335B9000A6B5E /* BaseAlamofireService.swift */,
+				D599F7CD29733458000A6B5E /* GetTokenService.swift */,
+				D599F7D929733807000A6B5E /* SignUpService.swift */,
+				D599F7DE29733F6D000A6B5E /* UserTokenService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		EC480A0C29733295004CBD2F /* MyPageView */ = {
+			isa = PBXGroup;
+			children = (
+				EC480A0D297332E1004CBD2F /* MyPageView.swift */,
+				EC480A1129733FA0004CBD2F /* CheckPointView.swift */,
+			);
+			path = MyPageView;
+			sourceTree = "<group>";
+		};
+		EC480A1329734296004CBD2F /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				EC480A14297342A5004CBD2F /* PointLogView.swift */,
+				EC480A16297342BF004CBD2F /* PointShopView.swift */,
+			);
+			path = Point;
+			sourceTree = "<group>";
+		};
+		ECEECBEE2973074C001E8807 /* AuthView */ = {
+			isa = PBXGroup;
+			children = (
+				D55636B02972EB39004F3942 /* SplashView.swift */,
+				D55636AA2972D0B4004F3942 /* SignInView.swift */,
+				D55636B22972EBEA004F3942 /* SignInViewModel.swift */,
+				D5431D2D29730824003401E6 /* SignUpStep1View.swift */,
+				D5431D2F29730836003401E6 /* SignUpStep1ViewModel.swift */,
+				D599F7AF29731042000A6B5E /* SignUpStep2View.swift */,
+				D599F7B129731049000A6B5E /* SignUpStep2ViewModel.swift */,
+				D599F7B3297314A7000A6B5E /* SignUpStep3View.swift */,
+				D599F7B729731520000A6B5E /* SignUpStep3ViewModel.swift */,
+			);
+			path = AuthView;
+			sourceTree = "<group>";
+		};
+		ECEECBEF2973075B001E8807 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				D556369C2972CBBE004F3942 /* MainView.swift */,
+				ECEECBF029730FB8001E8807 /* MainViewModel.swift */,
+				ECEECBF329731251001E8807 /* FormView.swift */,
+				ECEECBF529731BF8001E8807 /* FormViewModel.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,19 +382,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D599F7D829733765000A6B5E /* SignUpRouter.swift in Sources */,
+				D599F7D4297335E5000A6B5E /* NetworkLogger.swift in Sources */,
+				D599F7E829736256000A6B5E /* Loss.swift in Sources */,
+				D599F7DF29733F6D000A6B5E /* UserTokenService.swift in Sources */,
+				D599F7E629735E12000A6B5E /* AppDelegate.swift in Sources */,
 				D55636AB2972D0B4004F3942 /* SignInView.swift in Sources */,
+				D599F7C829732E63000A6B5E /* TokenUserResponse.swift in Sources */,
+				D599F7CE29733458000A6B5E /* GetTokenService.swift in Sources */,
 				D55636AF2972E750004F3942 /* PrimaryButton.swift in Sources */,
+				D599F7BB29731DBB000A6B5E /* BackgroundTapKeyboardDismiss.swift in Sources */,
 				D55636842972C93C004F3942 /* ContentView.swift in Sources */,
 				D556369D2972CBBE004F3942 /* MainView.swift in Sources */,
+				D5431D3029730836003401E6 /* SignUpStep1ViewModel.swift in Sources */,
+				EC480A17297342BF004CBD2F /* PointShopView.swift in Sources */,
 				D55636B32972EBEA004F3942 /* SignInViewModel.swift in Sources */,
 				D55636AD2972D126004F3942 /* TextFieldComponent.swift in Sources */,
+				D5431D32297308F8003401E6 /* StepIndicator.swift in Sources */,
+				EC480A1229733FA0004CBD2F /* CheckPointView.swift in Sources */,
 				D55636B12972EB39004F3942 /* SplashView.swift in Sources */,
+				ECEECBF129730FB8001E8807 /* MainViewModel.swift in Sources */,
+				D599F7CB297330E3000A6B5E /* GetTokenRouter.swift in Sources */,
+				D599F7B229731049000A6B5E /* SignUpStep2ViewModel.swift in Sources */,
+				D599F7B829731520000A6B5E /* SignUpStep3ViewModel.swift in Sources */,
+				D599F7B4297314A7000A6B5E /* SignUpStep3View.swift in Sources */,
 				D556369F2972CC77004F3942 /* ViewExtension.swift in Sources */,
+				EC480A0E297332E1004CBD2F /* MyPageView.swift in Sources */,
+				D599F7B029731042000A6B5E /* SignUpStep2View.swift in Sources */,
 				D55636A72972CDAC004F3942 /* NavigationLinkComponent.swift in Sources */,
 				D55636A32972CCF6004F3942 /* ColorExtension.swift in Sources */,
+				D599F7D629733702000A6B5E /* SignUpResponse.swift in Sources */,
+				D5431D2E29730824003401E6 /* SignUpStep1View.swift in Sources */,
 				D55636A92972CE68004F3942 /* UIScreenExtension.swift in Sources */,
+				ECEECBF429731251001E8807 /* FormView.swift in Sources */,
+				D599F7DA29733807000A6B5E /* SignUpService.swift in Sources */,
 				D55636A12972CCAE004F3942 /* ViewModifier.swift in Sources */,
+				EC480A15297342A5004CBD2F /* PointLogView.swift in Sources */,
+				ECEECBF629731BF8001E8807 /* FormViewModel.swift in Sources */,
+				D599F7C2297328E8000A6B5E /* User.swift in Sources */,
+				D599F7E129735A78000A6B5E /* AppState.swift in Sources */,
+				D55636A12972CCAE004F3942 /* ViewModifier.swift in Sources */,
+				D599F7C629732AF1000A6B5E /* GetTokenResponse.swift in Sources */,
 				D55636822972C93C004F3942 /* JoMO_iOSApp.swift in Sources */,
+				D599F7E329735AB6000A6B5E /* ContentViewModel.swift in Sources */,
+				D599F7BD29731DE1000A6B5E /* KeyboardDismissExtension.swift in Sources */,
+				D599F7D2297335B9000A6B5E /* BaseAlamofireService.swift in Sources */,
+				D599F7DC2973388D000A6B5E /* UserTokenRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

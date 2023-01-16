@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = ContentViewModel()
+    
+    @EnvironmentObject var appState: AppState
+    
     var body: some View {
-        SplashView()
+        VStack {
+          switch viewModel.viewMode {
+          case .main:
+            MainView()
+          case .signIn:
+            SplashView()
+          }
+        }
+        .onAppear {
+          Task {
+            await viewModel.checkAuthSession()
+          }
+        }
+        .id(appState.contentViewId)
     }
 }
 

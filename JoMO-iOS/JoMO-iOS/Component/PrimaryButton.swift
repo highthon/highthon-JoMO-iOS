@@ -13,7 +13,7 @@ struct PrimaryButton: View {
     var action: (() -> Void)?
     @Binding var enabled: Bool
     
-    init(title: String, color: Color, action: (() -> Void)? = nil, enabled: Binding<Bool> = .constant(true)) {
+    init(title: String, color: Color, enabled: Binding<Bool> = .constant(true), action: (() -> Void)? = nil) {
         self.title = title
         self.color = color
         self.action = action

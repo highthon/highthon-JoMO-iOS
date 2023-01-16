@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SignInView: View {
+    @EnvironmentObject var appState: AppState
+    
     @StateObject private var viewModel = SignInViewModel()
     
     var body: some View {
@@ -16,17 +18,26 @@ struct SignInView: View {
                 .padding(.bottom, 15)
             
             VStack(spacing: 16) {
-                TextFieldComponent("아이디", text: $viewModel.id, secure: false)
+                TextFieldComponent("아이디(이메일)", text: $viewModel.id, secure: false)
+                    .keyboardType(.emailAddress)
                 
                 TextFieldComponent("비밀번호", text: $viewModel.password, secure: true)
+                    .keyboardType(.numbersAndPunctuation)
             }
             
-            PrimaryButton(title: "로그인", color: .mainYellow, enabled: $viewModel.invalidSignIn)
+            PrimaryButton(title: "로그인", color: .mainYellow, enabled: $viewModel.invalidSignIn) {
+                Task {
+                    await viewModel.getToken {
+                        appState.refreshContentView()
+                    }
+                }
+            }
             
             HStack {
-                Button("회원가입") {
-                    print("회원가입 navigation")
-                }
+                NavigationLink("회원가입", destination: {
+                    SignUpStep1View()
+                        .navigationBarHidden(true)
+                })
                 .foregroundColor(.gray4)
             }
         }
